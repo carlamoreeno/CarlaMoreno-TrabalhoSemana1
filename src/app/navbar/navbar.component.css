@@ -1,0 +1,14 @@
+/* Seletores de Tags por ordem alfabética */
+nav{
+  background-color: #FC4445;
+}
+ul{
+  font-family:  'Kanit', sans-serif;
+}
+
+/* Seletores de Classe por ordem alfabética */
+.logo{
+  margin-top: -45px;
+  height: 160px;
+  width: 240px;
+}

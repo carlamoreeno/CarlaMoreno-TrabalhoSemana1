@@ -1,0 +1,48 @@
+/* Seletores de Tags por ordem alfabética */
+b{
+  font-size: 20px;
+}
+img{
+  text-align: center;
+  height: 350px;
+  width: 500px;
+}
+
+/* Seletores de Classe por ordem alfabética */
+.container{
+  padding-top: 20px;
+  padding-bottom: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: black;
+}
+.icon{
+  height: 70px;
+  width: 70px;
+  margin-bottom: -28px;
+  padding-left: 10px;
+}
+.row{
+  background-color: white;
+  margin-top: 140px;
+  margin-bottom: 180px;
+}
+
+/* Seletores de id por ordem alfabética */
+#coluna{
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+/* Animated FadeIn */
+.animated {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.fadeIn {
+  animation-name: fadeIn;
+}

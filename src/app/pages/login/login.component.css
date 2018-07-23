@@ -1,0 +1,49 @@
+/* Seletores de Tags por ordem alfabética */
+input {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+/* Seletores de Classe por ordem alfabética */
+/* Botão de para fazer login */
+.btn{
+  background-color: #808080;
+  width: 120px;
+  font-size: 16px;
+  margin: 40px -20px 40px 270px;
+  transition: 0.3s;
+}
+/* Transition do botão que faz o login quando sob o cursor */
+.btn:hover {
+  background-color: #FC4445;
+  color: white;
+}
+.container{
+  padding-top: 20px;
+}
+.row{
+  margin-top: 140px;
+  margin-bottom: 150px;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+/* Seletores de id por ordem alfabética*/
+#dados{
+  font-weight: bold;
+  color: grey;
+}
+
+/* Animated FadeIn */
+.animated {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.fadeIn {
+  animation-name: fadeIn;
+}

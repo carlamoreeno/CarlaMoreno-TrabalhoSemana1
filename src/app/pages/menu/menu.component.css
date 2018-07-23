@@ -1,0 +1,51 @@
+/* Seletores de Classe por ordem alfabética */
+.card{
+  height: 440px;
+  width: 470px;
+  margin-bottom: 80px;
+  z-index: 1;
+}
+.container{
+  padding-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black;
+}
+.disabled{
+  color: black;
+  pointer-events: none;
+}
+.enfase{
+  font-size: 35px;
+}
+.icon{
+  height: 20px;
+  width: 20px;
+}
+.row{
+  background-color: white;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+/* Seletores de id por ordem alfabética */
+#coluna{
+  margin-right: 22px;
+}
+#flavour{
+  font-weight: bold;
+  font-size: 21px;
+}
+
+/* Animated FadeIn */
+.animated {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.fadeIn {
+  animation-name: fadeIn;
+}

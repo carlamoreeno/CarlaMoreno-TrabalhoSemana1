@@ -1,0 +1,11 @@
+/* Seletores de Tags por ordem alfabética */
+body{
+  background-image: url('/assets/img/fundo.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+  font-family:  'Kanit', sans-serif;
+}
+h4{
+  padding-top: 40px;
+  padding-left: 60px;
+}
